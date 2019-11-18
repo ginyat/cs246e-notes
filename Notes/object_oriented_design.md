@@ -611,7 +611,7 @@ If you need true shared ownership - we'll see later.
             | Timer                 |◇--------->+-----------+
             +-----------------------+           | <em>Responder</em> |
             |+ register(Responder)  |&lt;---------◇+-----------+
-            |+ unregister(Resonder) |           |+ notify() |
+            |+ unregister(Responder)|           |+ notify() |
             +-----------------------+           +-----------+
                                                        ^    
                                                        |      
